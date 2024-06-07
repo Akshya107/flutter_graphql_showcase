@@ -8,37 +8,6 @@ making the code scalable and maintainable.
 
 ### Project Structure
 
-lib/
-├── data/
-│ ├── data_sources/
-│ │ └── api_services.dart
-│ ├── repository_impl/
-│ │ └── home/
-│ │ └── repository_impl.dart
-├── domain/
-│ ├── dependency_injection/
-│ │ └── dependency_injection.dart
-│ ├── models/
-│ │ └── home/
-│ │ └── film_data_model.dart
-│ ├── repository/
-│ │ └── home/
-│ │ └── home_repository.dart
-├── presentation/
-│ ├── bloc/
-│ │ ├── home_bloc.dart
-│ │ ├── home_event.dart
-│ │ └── home_state.dart
-│ ├── views/
-│ │ ├── screens/
-│ │ │ └── home_page.dart
-│ │ └── widgets/
-│ │ └── home/
-│ │ └── loading_widget.dart
-├── utils/
-│ └── constants.dart
-└── main.dart
-
 The project follows a layered architecture with the following main directories:
 
 ### data
